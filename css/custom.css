@@ -46,12 +46,12 @@
 /************************************/
 
 :root{
-	--primary-color				: #26505E;
+	--primary-color				: #2d6857;
 	--secondary-color			: #E9F2DF;
-	--accent-secondary-color	: #CE9E6E33;
+	--accent-secondary-color	: #9e6f4033;
 	--bg-color					: #FFFDFA;
 	--text-color				: #7D898D;
-	--accent-color				: #CE9E6E;
+	--accent-color				: #aa7947;
 	--white-color				: #FFFFFF;
 	--divider-color				: #26505E1A;
 	--dark-divider-color		: #FFFFFF1A;
@@ -2391,7 +2391,7 @@ header.main-header .header-sticky.active{
 
 .footer-logo img{
 	width: 100%;
-	max-width: 176px;
+	max-width: 400px;
 }
 
 .about-footer-content{
