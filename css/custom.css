@@ -2611,6 +2611,12 @@ header.main-header .header-sticky.active{
 	overflow: hidden;
 }
 
+.bg-image{
+	background: url('../images/page-header-nri-bg.jpg') no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
 .page-header::before{
     content: '';
     position: absolute;
