@@ -2617,6 +2617,12 @@ header.main-header .header-sticky.active{
 	background-size: cover;
 }
 
+.bg-image-service{
+	background: url('../images/service.jpg') no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
 .page-header::before{
     content: '';
     position: absolute;
