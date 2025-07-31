@@ -553,6 +553,21 @@ header.main-header .header-sticky.active{
 	width: 8%;
 }
 
+/* Responsive tweaks for smaller screens */
+@media (max-width: 768px) {
+  .navbar-brand {
+    width: 12vw;
+    max-width: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-brand {
+    width: 16vw;
+    max-width: 80px;
+  }
+}
+
 .main-menu .nav-menu-wrapper{
 	flex: 1;
 	text-align: center;
@@ -2789,7 +2804,7 @@ header.main-header .header-sticky.active{
 }
 
 .care-image-1 .recovery-circle a img{
-    max-width: 170px;
+    max-width: 300px;
 }
 
 .our-care-images .trusted-profession-box{
@@ -6239,7 +6254,7 @@ header.main-header .header-sticky.active{
     }
 
     .care-image-1 .recovery-circle a img{
-        max-width: 110px;
+        max-width: 160px;
     }
 
     .our-care-images .trusted-profession-box{
