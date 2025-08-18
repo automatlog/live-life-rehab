@@ -68,30 +68,49 @@
                                     </ul> -->
                                 </li>
                                 <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-                                <li class="nav-item submenu"><a class="nav-link" href="services.html">Programs & Services</a>
-                                <ul>
-                                        <li class="nav-item"><a class="nav-link" href="alcohol-deaddiction-treatment.html">Alcohol De-Addiction Treatment</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="drugs-deaddiction-treatment.html">Drugs De-Addiction Treatment</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="gambling-deaddiction-treatment.html">Gambling De-Addiction Treatment</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="smoking-and-gutka-deaddiction-treatment.html">Smoking & Gutkha De-Addiction Treatment</a></li>
+                                <li class="nav-item submenu"><a class="nav-link" href="services.html">Programs &
+                                        Services</a>
+                                    <ul>
+                                        <li class="nav-item"><a class="nav-link"
+                                                href="alcohol-deaddiction-treatment.html">Alcohol De-Addiction
+                                                Treatment</a></li>
+                                        <li class="nav-item"><a class="nav-link"
+                                                href="drugs-deaddiction-treatment.html">Drugs De-Addiction Treatment</a>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link"
+                                                href="gambling-deaddiction-treatment.html">Gambling De-Addiction
+                                                Treatment</a></li>
+                                        <li class="nav-item"><a class="nav-link"
+                                                href="smoking-and-gutka-deaddiction-treatment.html">Smoking & Gutkha
+                                                De-Addiction Treatment</a></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item submenu"><a class="nav-link" href="other-centre.html">Rahab Centres</a>
-                                <ul>
-                                        <li class="nav-item"><a class="nav-link" href="premium-ahmedabad.html">Premium Rehab Centre - Ahmedabad</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="premium-gandhinagar.html">Premium Rehab Centre - Gandhinagar</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="premium-gandhidham.html">Premium Rehab Centre - Gandhidham</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="premium-morbi.html">Premium Rehab Centre - Morbi</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="premium-rajkot.html">Premium Rehab Centre - Rajkot</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="premium-surat.html">Premium Rehab Centre - Surat</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="premium-vadodara.html">Premium Rehab Centre - Vadodara</a></li>
-                                </ul>
+                                <li class="nav-item submenu"><a class="nav-link" href="other-centre.html">Rahab
+                                        Centres</a>
+                                    <ul>
+                                        <li class="nav-item"><a class="nav-link" href="premium-ahmedabad.html">Premium
+                                                Rehab Centre - Ahmedabad</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="premium-gandhinagar.html">Premium
+                                                Rehab Centre - Gandhinagar</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="premium-gandhidham.html">Premium
+                                                Rehab Centre - Gandhidham</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="premium-morbi.html">Premium Rehab
+                                                Centre - Morbi</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="premium-rajkot.html">Premium
+                                                Rehab Centre - Rajkot</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="premium-surat.html">Premium Rehab
+                                                Centre - Surat</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="premium-vadodara.html">Premium
+                                                Rehab Centre - Vadodara</a></li>
+                                    </ul>
                                 </li>
 
                                 <li class="nav-item submenu"><a class="nav-link" href="#">Explore</a>
                                     <ul>
-                                        <li class="nav-item"><a class="nav-link" href="blog-the-treatment-process.html">The Treatment Process</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="blog.html">Insights & News</a></li>
+                                        <li class="nav-item"><a class="nav-link"
+                                                href="blog-the-treatment-process.html">The Treatment Process</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="blog.html">Insights & News</a>
+                                        </li>
                                         <li class="nav-item"><a class="nav-link" href="team.html">Meet Our Team</a></li>
                                         <li class="nav-item"><a class="nav-link"
                                                 href="testimonials.html">Testimonials</a></li>
@@ -100,7 +119,8 @@
                                         <li class="nav-item"><a class="nav-link" href="faqs.html">FAQs</a></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item"><a class="nav-link" href="nri-service.html">NRI Rehab Service</a></li>
+                                <li class="nav-item"><a class="nav-link" href="nri-service.html">NRI Rehab Service</a>
+                                </li>
                                 <li class="nav-item highlighted-menu"><a class="nav-link"
                                         href="book-appointment.html">Book a Consultation</a></li>
                             </ul>
@@ -163,59 +183,95 @@
 
                         <!-- Book Appointment Form Start -->
                         <div class="appointment-form wow fadeInUp" data-wow-delay="0.4s">
-                            <form id="appointmentForm" action="#" method="POST" data-toggle="validator">
+                            <form id="appointmentForm" onsubmit="sendToWhatsApp(event)">
                                 <div class="row">
                                     <div class="form-group col-md-6 mb-4">
                                         <input type="text" name="name" class="form-control" id="name"
                                             placeholder="Full Name" required>
-                                        <div class="help-block with-errors"></div>
                                     </div>
 
                                     <div class="form-group col-md-6 mb-4">
                                         <input type="email" name="email" class="form-control" id="email"
                                             placeholder="Email Address" required>
-                                        <div class="help-block with-errors"></div>
                                     </div>
 
                                     <div class="form-group col-md-6 mb-4">
                                         <input type="text" name="phone" class="form-control" id="phone"
                                             placeholder="Phone Number" required>
-                                        <div class="help-block with-errors"></div>
                                     </div>
 
                                     <div class="form-group col-md-6 mb-4">
                                         <select name="services" class="form-control form-select" id="services" required>
                                             <option value="" disabled selected>Select Services</option>
-                                            <option value="pain_relief_therapy">Pain Relief Therapy</option>
-                                            <option value="sports_injury_rehab">Sports Injury Rehab</option>
-                                            <option value="exercise_therapy">Exercise Therapy</option>
-                                            <option value="pediatric_physiotherapy">Pediatric Physiotherapy</option>
-                                            <option value="chronic_pain_relief">Chronic Pain Relief</option>
-                                            <option value="joint_mobility_therapy">Joint Mobility Therapy</option>
-                                            <option value="spinal_alignment_care">Spinal Alignment Care</option>
+                                            <option value="AA & NA Meetings">AA & NA Meetings</option>
+                                            <option value="Abuse">Abuse</option>
+                                            <option value="Addiction">Addiction</option>
+                                            <option value="Alcoholism Treatment">Alcoholism Treatment</option>
+                                            <option value="Anxiety">Anxiety</option>
+                                            <option value="Bipolar Disorder">Bipolar Disorder</option>
+                                            <option value="Corporate Program">Corporate Program</option>
+                                            <option value="Counseling">Counseling</option>
+                                            <option value="Covid-19 Precautions">Covid-19 Precautions</option>
+                                            <option value="Depression">Depression</option>
+                                            <option value="Detoxification">Detoxification</option>
+                                            <option value="Disorder">Disorder</option>
+                                            <option value="Drug Addiction Treatment">Drug Addiction Treatment</option>
+                                            <option value="Eating Disorder">Eating Disorder</option>
+                                            <option value="Family Counseling">Family Counseling</option>
+                                            <option value="Family Services">Family Services</option>
+                                            <option value="Free Treatment">Free Treatment</option>
+                                            <option value="Gambling Addiction">Gambling Addiction</option>
+                                            <option value="International">International</option>
+                                            <option value="Internet Addiction">Internet Addiction</option>
+                                            <option value="Luxury">Luxury</option>
+                                            <option value="Mental Health Treatment">Mental Health Treatment</option>
+                                            <option value="Mood Disorder">Mood Disorder</option>
+                                            <option value="Nasha Mukti Kendra">Nasha Mukti Kendra</option>
+                                            <option value="Obsessive Compulsive Disorder">Obsessive Compulsive Disorder
+                                            </option>
+                                            <option value="Occupational Therapy">Occupational Therapy</option>
+                                            <option value="Out Patient">Out Patient</option>
+                                            <option value="Personality Disorder">Personality Disorder</option>
+                                            <option value="Physical Therapy">Physical Therapy</option>
+                                            <option value="Prevention">Prevention</option>
+                                            <option value="Psychotherapy">Psychotherapy</option>
+                                            <option value="Psychotic Disorder">Psychotic Disorder</option>
+                                            <option value="Rehabilitation Centre">Rehabilitation Centre</option>
+                                            <option value="Relapse">Relapse</option>
+                                            <option value="Relapse Prevention">Relapse Prevention</option>
+                                            <option value="Residential">Residential</option>
+                                            <option value="Residential Rehabilitation">Residential Rehabilitation
+                                            </option>
+                                            <option value="Sex Addiction">Sex Addiction</option>
+                                            <option value="Sleep Disorder">Sleep Disorder</option>
+                                            <option value="Smoking Cessation">Smoking Cessation</option>
+                                            <option value="Speech Therapy">Speech Therapy</option>
+                                            <option value="Stress">Stress</option>
+                                            <option value="Substance Abuse">Substance Abuse</option>
+                                            <option value="Substance Abuse Counselling">Substance Abuse Counselling
+                                            </option>
+                                            <option value="Women’s Program">Women’s Program</option>
+                                            <option value="Yoga and Meditation">Yoga and Meditation</option>
+                                            <option value="Youth Deaddiction">Youth Deaddiction</option>
+                                            <option value="Youth Substance Abuse">Youth Substance Abuse</option>
                                         </select>
-                                        <div class="help-block with-errors"></div>
                                     </div>
 
                                     <div class="form-group col-md-6 mb-4">
                                         <input type="date" name="date" class="form-control" id="date" required>
-                                        <div class="help-block with-errors"></div>
                                     </div>
 
                                     <div class="form-group col-md-6 mb-4">
                                         <input type="time" name="time" class="form-control" id="time" required>
-                                        <div class="help-block with-errors"></div>
                                     </div>
 
                                     <div class="form-group col-md-12 mb-4">
                                         <textarea name="message" class="form-control" id="message" rows="3"
                                             placeholder="Message"></textarea>
-                                        <div class="help-block with-errors"></div>
                                     </div>
 
                                     <div class="col-md-12">
                                         <button type="submit" class="btn-default"><span>Submit now</span></button>
-                                        <div id="msgSubmit" class="h3 hidden"></div>
                                     </div>
                                 </div>
                             </form>
@@ -257,6 +313,9 @@
         </div>
     </div>
     <!-- Page Book Appointment End -->
+
+
+
 
     <!-- Our Feature Section Start -->
     <div class="our-feature bg-section">
@@ -363,7 +422,38 @@
     </div>
     <!-- Our Feature Section End -->
 
-    
+    <!-- Send to WhatsApp Script -->
+    <script>
+        function sendToWhatsApp(event) {
+            event.preventDefault(); // stop form refresh
+
+            let name = document.getElementById("name").value;
+            let email = document.getElementById("email").value;
+            let phone = document.getElementById("phone").value;
+            let service = document.getElementById("services").value;
+            let date = document.getElementById("date").value;
+            let time = document.getElementById("time").value;
+            let message = document.getElementById("message").value;
+
+            let whatsappMessage =
+                `📅 *New Appointment Request* 📅
+
+            👤 Name: ${name}
+            📧 Email: ${email}
+            📞 Phone: ${phone}
+            🛠 Service: ${service}
+            📆 Date: ${date}
+            ⏰ Time: ${time}
+            💬 Message: ${message}`;
+
+            // ✅ For Mobile (direct app open) OR Desktop (WhatsApp Web)
+            let url = "https://api.whatsapp.com/send?phone=918693054000&text=" + encodeURIComponent(whatsappMessage);
+
+            window.open(url, "_blank");
+        }
+    </script>
+
+    <!-- Send to WhatsApp Script End -->
 
     <!-- Footer Start -->
     <footer class="main-footer bg-section dark-section">
@@ -471,6 +561,58 @@
     </footer>
     <!-- Footer End -->
 
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-k+oTCJx...your-integrity-hash..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .fab-toggle {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            z-index: 1000;
+        }
+
+        .whatsapp-fab {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 999;
+            background-color: #25d366;
+            /* WhatsApp green */
+            color: white;
+            width: 65px;
+            height: 65px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 26px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            transition: background-color 0.3s ease;
+            text-decoration: none;
+        }
+
+        .whatsapp-fab:hover {
+            background-color: #1ebd5a;
+        }
+    </style>
+
+    <div class="fab-toggle" id="fab">
+        <!-- WhatsApp Floating Button -->
+        <a href="https://wa.me/918693054000" class="fab-btn whatsapp-fab" target="_blank" aria-label="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <script>
+        document
+            .querySelector(".fab-main")
+            .addEventListener("click", function () {
+                document.getElementById("fab").classList.toggle("open");
+            });
+    </script>
+
     <!-- Jquery Library File -->
     <script src="js/jquery-3.7.1.min.js"></script>
     <!-- Bootstrap js file -->
@@ -502,8 +644,10 @@
     <script src="js/wow.min.js"></script>
     <!-- Main Custom js file -->
     <script src="js/function.js"></script>
+
+
 </body>
 
-<!-- Mirrored from html.awaikenthemes.com/reclin/book-appointment.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 16 Jun 2025 14:49:36 GMT -->
+
 
 </html>
